@@ -16,4 +16,4 @@ The data sets used in this project as described below:
  - Roads
 
 **Presentation**
-A link to the video presentation can be found (here)[google.com]
+A link to the video presentation can be found [here](google.com)
