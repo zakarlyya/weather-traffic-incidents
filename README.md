@@ -3,12 +3,15 @@
 #
 
 **Project Description**
+
 We analyzed and visualized incidents in the Greater Nashville Area using AWS Athena to merge the data stored on S3.
 
 **Contents**
+
 This repository contains all the source code used to query the data and generate visuals.
 
 **Data**
+
 The data sets used in this project as described below:
  - Traffic
  - Incident
@@ -16,4 +19,5 @@ The data sets used in this project as described below:
  - Roads
 
 **Presentation**
+
 A link to the video presentation can be found [here](google.com)
