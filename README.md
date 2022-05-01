@@ -24,7 +24,7 @@ The data sets used in this project as described below:
 **1. Merge all Relevant Datasets together**
 > - Upload all Datasets onto an **S3 Bucket**: [S3 Steps](google.com)
 > - Set up an **EMR Cluster** for **pySpark** pre-processing: [EMR Steps](google.com)
->   - Transform Traffic Data and Weather Data for 6hr Windows: [Jupyter Notebook #1](google.com)
+>   - Transform Traffic Data and Weather Data for 6hr Windows: [Jupyter Notebook #1](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/Steps/pySpark_transform.ipynb)
 > - Merge Datasets: [Merge Queries](google.com)
 >   - Merge Incidents with Traffic (on Incident ID, Window) -> name: *Traf_Inc*
 >   - Merge Weather with Traf_Inc (on Incident ID, Window) -> name: *Intermediate*
