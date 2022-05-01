@@ -46,8 +46,8 @@ The data sets used in this project as described below:
 **4. Processing the Data Plotting and Visualizations**
 
 **5. Processing the Data through Machine Learning Modeling**
-> - Using the [merged data](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/tree/master/Geo-Grid%20Query%20Results), an EMR cluster was made and then this [notebook]() was used to run the machine learning model.
-> - Results are stored [here](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/ML_Regressions.ipynb)
+> - Using the [merged data](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/tree/master/Geo-Grid%20Query%20Results), an EMR cluster was made and then this [notebook](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/ML_Regressions.ipynb) was used to run the machine learning model.
+> - Results are stored ADD![here]()
 
 #
 #### Presentation
