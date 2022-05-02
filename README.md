@@ -3,21 +3,21 @@
 
 #### Project Description
 
-We analyzed and visualized incidents in the Greater Nashville Area using AWS Athena to merge the data stored on S3.
+We analyzed and visualized incidents in the Greater Nashville Area using AWS Athena and Spark EMR to merge and query the data stored on S3.
 
 #
 #### Contents
 
-This repository contains all the source code used to query the data and generate visuals.
+This repository contains all the source codeused  and explanations on how to load, query and tranform the data and generate visuals.
 
 #
 #### Data
 
 The data sets used in this project as described below:
- - Traffic
- - Incident
- - Weather
- - Roads
+ - Traffic: Gives traffic data such as speed and congestion across Davidson County.
+ - Incident: Record of all of the incidents that occurred in Nashville from 2017-2021.
+ - Weather: Weather in TN including precipitation, visibility, and temperature.
+ - Roads: Data of all major roadways such as length of roadway, number of lanes, etc. 
 
 #
 #### Milestones Delivered 
@@ -45,6 +45,12 @@ The data sets used in this project as described below:
 
 **4. Processing the Data Plotting and Visualizations**
 
+> - The results of the queries above (either on S3 or downloaded locally) were loaded into Pandas dataframes
+> - Pandas was used for simple post processing if necessary
+> - Plotly Go and Plotly Express were used to generate visualizations of the data such as maps and graphs 
+
+A link to a pdf of all the plots can be found [here](plots.pdf)
+
 **5. Processing the Data through Machine Learning Modeling**
 > - Using the [merged data](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/tree/master/Geo-Grid%20Query%20Results), an EMR cluster was made and then this [notebook](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/ML_Regressions.ipynb) was used to run the machine learning model.
 > - Results are stored ADD![here]()
@@ -52,4 +58,9 @@ The data sets used in this project as described below:
 #
 #### Presentation
 
-A link to the video presentation can be found [here](google.com)
+A link to the video presentation can be found [here](https://photos.google.com/share/AF1QipNQbDPu_xLAehm9o4nLx4sgq4_DCl6s69Vivo87aR02vg09DaV-Eakp2r_AqsNPVg/photo/AF1QipOICs7oRpicpem1vhTXG4D7RYDgQEqfGxG0dGT4?key=VGdaZ0xmSmxnQlc3TlZfUUpDX3Ewd1A5QllLVW9n)
+
+If the link above does not work then the following link can be used: https://photos.app.goo.gl/dXpyeWkzEUSCinpD7
+
+A link to the presentation slides can be found [here](slides.pdf)
+
