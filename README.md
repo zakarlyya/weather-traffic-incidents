@@ -8,7 +8,7 @@ We analyzed and visualized incidents in the Greater Nashville Area using AWS Ath
 #
 #### Contents
 
-This repository contains all the source codeused  and explanations on how to load, query and tranform the data and generate visuals.
+This repository contains all the source code used and explanations on how to load, query and tranform the data and generate visuals.
 
 #
 #### Data
@@ -60,4 +60,10 @@ A link to the video presentation can be found [here](https://photos.google.com/s
 If the link above does not work then the following link can be used: https://photos.app.goo.gl/dXpyeWkzEUSCinpD7
 
 A link to the presentation slides can be found [here](slides.pdf)
+
+
+#
+#### Final Report
+
+A link to the final project report can be found [here](report.pdf)
 
