@@ -14,25 +14,22 @@ This repository contains all the source codeused  and explanations on how to loa
 #### Data
 
 The data sets used in this project as described below:
- - Traffic: Gives traffic data such as speed and congestion across Davidson County.
- - Incident: Record of all of the incidents that occurred in Nashville from 2017-2021.
- - Weather: Weather in TN including precipitation, visibility, and temperature.
- - Roads: Data of all major roadways such as length of roadway, number of lanes, etc. 
+ - **Traffic**: Gives traffic data such as speed and congestion across Davidson County.
+ - **Incident**: Record of all of the incidents that occurred in Nashville from 2017-2021.
+ - **Weather**: Weather in TN including precipitation, visibility, and temperature.
+ - **Roads**: Data of all major roadways such as length of roadway, number of lanes, etc. 
 
 #
 #### Milestones Delivered 
 **1. Merge all Relevant Datasets together**
-> - Upload all Datasets onto an **S3 Bucket**: [S3 Steps](google.com)
-> - Set up an **EMR Cluster** for **pySpark** pre-processing: [EMR Steps](google.com)
+> - Upload all Datasets onto an **S3 Bucket**
+> - Set up an **EMR Cluster** for **pySpark** pre-processing
 >   - Transform Traffic Data and Weather Data for 6hr Windows: [Jupyter Notebook #1](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/Steps/pySpark_transform.ipynb)
-> - Merge Datasets: [Merge Queries](google.com)
->   - Merge Incidents with Traffic (on Incident ID, Window) -> name: *Traf_Inc*
->   - Merge Weather with Traf_Inc (on Incident ID, Window) -> name: *Intermediate*
->   - Merge Roads with Intermediate (on XDSegID) -> name: *Merge_Showdown*
+> - Merge all the Datasets: [Merge Queries](Queries/Merge%20Queries.pdf)
 > - Clean up Duplicated Columns after Merging: [Colab Notebook #1](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/Steps/Table_Cleanup.ipynb)
 
 **2. Loading Tables onto Database** 
-> - Upload Tables onto **Athena** via S3: [Athena Steps](google.com)
+> - Upload Tables onto **Athena** via S3
 > - Directly Use Athena Console for **SQL** Querying
 
 **3. Querying the Data for Filtered Information**
@@ -52,8 +49,8 @@ The data sets used in this project as described below:
 A link to a pdf of all the plots can be found [here](plots.pdf)
 
 **5. Processing the Data through Machine Learning Modeling**
-> - Using the [merged data](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/tree/master/Geo-Grid%20Query%20Results), an EMR cluster was made and then this [notebook](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/ML_Regressions.ipynb) was used to run the machine learning model.
-> - Results are stored ADD![here]()
+> - Using the [Grid-Partitioned Data](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/tree/master/Geo-Grid%20Query%20Results), an EMR cluster was made and then this [Jupyter Notebook #2](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/ML_Regressions.ipynb) was used to run the machine learning model.
+> - Results are stored [here](google.com)
 
 #
 #### Presentation
