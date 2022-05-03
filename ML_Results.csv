@@ -1,0 +1,26 @@
+﻿Area of grid,Linear Regression,Random Forest Regression,Gradient Boosted Tree Regression (maxIter = 10),Lowest RMSE 
+,,,,
+Q1,0.5369,0.8814,0.5,1
+Q2,1.6988,1.83868,1.7388,5.33
+Q3,10.914,5.7268,11.187,24.2
+Q4,2.499,2.848,2.965,6.49
+Q5,1.929,1.456,1.732,2.5
+Q6,13.559,5.552,8.503,20.6
+Q7,19.96,7.439,10.583,40.95
+Q8,6.333,2.327,2.979,7.69
+Q9,2.554,2.2238,2.0288,9.979
+Q10,15.542,18.637,16.219,57.18
+Q11,28.667,27.069,33.4068,69
+Q12,12.92,7.535,3.928,26.423
+Q13,2.814,2.798,3.559,9.26
+Q14,4.523,2.853,4.391,7.261
+Q15,10.5,9.419,15.38,41.63
+Q16,14.14,7.619,15.049,34.34
+,,,,
+,,,,
+Area,Linear Regression,Random Forest Regression,Gradient Boosted Tree Regression (maxIter = 10),Lowest RMSE 
+,,,,Regressor’s Prediction (number of accidents)
+Vanderbilt,5.933,2.114,5.74,5.365
+BNA Airport,7.809,5.949,9.389,14.57
+East Nashville,11.49,5.482,8.29,15.021
+Downtown,17.05,13.838,11.634,29.72
