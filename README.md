@@ -50,7 +50,7 @@ A link to a pdf of all the plots can be found [here](plots.pdf)
 
 **5. Processing the Data through Machine Learning Modeling**
 > - Using the [Grid-Partitioned Data](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/tree/master/Geo-Grid%20Query%20Results), an EMR cluster was made and then this [Jupyter Notebook #2](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/ML_Regressions.ipynb) was used to run the machine learning model.
-> - Results are stored [here](google.com)
+> - Results are stored [here](https://github.com/vu-topics-in-big-data-2022/Project-Incident-Team2/blob/master/ML_Results.csv)
 
 #
 #### Presentation
